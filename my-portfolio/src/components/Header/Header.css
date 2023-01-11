@@ -1,0 +1,35 @@
+#header-container{
+    background-color: #23262D;
+}
+
+#header-container div{
+    display: flex;
+    padding: 0px 150px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header-container div img{
+    max-height: 100px;
+}
+
+#header-container div nav{
+    display: flex;
+    width: 20vw;
+    justify-content: space-around;
+}
+
+#header-container div nav a{
+   color: #fff;
+   text-decoration: none;
+   padding: 10px
+}
+
+#header-container div nav a:hover{
+    border-bottom: 2px solid #37FDA4;
+    box-sizing: border-box;
+ }
+ 
+@media screen and (max-width: 768px){
+    
+}
