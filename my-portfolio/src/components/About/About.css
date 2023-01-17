@@ -7,7 +7,7 @@
     width: 80vw;
     margin: 0 auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
 }
 
@@ -22,15 +22,16 @@
 
 .about-me h2{
     font-size: 25px;
-    color: #fff;
+    color: #37FDA4;
 }
 
-.about-me p{
+.about-me div p{
     display: inline-block;
-    width: 30vw;
+    width: 28vw;
     font-size: 16px;
-    color: #37FDA4;
-    padding: 10px 0px;
+    color: #fff;
+    padding: 10px 10px;
+    line-height: 35px;
 }
 
 .about-list {
@@ -48,7 +49,7 @@
    padding: 20px 0;
    width: 90%;
    margin: 0 auto;
-   list-style-type: disc;
+   list-style-type: square;
 }
 
 .about-list a{
@@ -57,7 +58,7 @@
     margin-top: 20px;
     padding: 10px;
     border-radius: 10px;
-    background-color: #23a168;
+    background-color: #2CC983;
     color: #fff;
     transition: background-color .3s ease;
  }

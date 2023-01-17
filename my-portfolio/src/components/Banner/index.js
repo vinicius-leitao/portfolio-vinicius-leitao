@@ -7,7 +7,7 @@ export default function Banner(){
             <div className='banner-info'>
                 <div className='banner-text'>
                     <h1>Olá, eu sou o Vinícius Leitão. Desenvolvedor Front-end em busca de uma oportunidade.</h1>
-                    <p>Esse é o meu site portfólio. Nele você encontrará projetos relacionados a desenvolvimento web, mas outros que fiz durante a minha experiência como programador.</p>
+                    <p>Esse é o meu site portfólio. Nele você encontrará projetos relacionados a desenvolvimento web, entre outros que desenvolvi ao longo da minha experiência como programador.</p>
                     <button className='contact-button'>Entre em contato</button>
                 </div>
                 <div className='banner-img'>
