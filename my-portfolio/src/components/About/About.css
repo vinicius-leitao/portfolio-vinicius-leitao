@@ -21,8 +21,9 @@
 }
 
 .about-me h2{
-    font-size: 25px;
+    font-size: 30px;
     color: #37FDA4;
+    font-family: 'Source Code Pro', 'Consolas', 'Poppins';
 }
 
 .about-me div p{
