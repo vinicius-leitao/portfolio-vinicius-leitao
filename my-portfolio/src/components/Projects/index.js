@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import { Navigate, useNavigate } from "react-router-dom";
 
 import Card from "../Card";
 
@@ -33,6 +34,12 @@ export default function Projects() {
         tool: "assets/js.png"
     }
   ];
+
+  const history = useNavigate();
+
+  function handleClick() {
+    Navigate()
+  }
 
   return (
     <section id="projects-container">

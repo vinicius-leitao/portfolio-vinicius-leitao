@@ -1,10 +1,9 @@
 import React from 'react'
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 import Header from './components/Header'
-import Banner from './components/Banner'
-import About from './components/About'
-import Projects from './components/Projects'
-import Contact from './components/Contact'
+import Home from './pages/Home'
+import ProjectsPage from './pages/ProjectsPage';
 import Footer from './components/Footer'
 
 import './App.css';
@@ -15,10 +14,12 @@ function App() {
   return (
     <div className="App">
       <Header/>
-      <Banner/>
-      <About/>
-      <Projects/>
-      <Contact/>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' exact element={<Home/>}></Route>
+          <Route path='/projetos' element={<ProjectsPage/>}></Route>
+        </Routes>
+      </BrowserRouter>
       <Footer/>
     </div>
   );
