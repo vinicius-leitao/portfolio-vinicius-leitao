@@ -17,7 +17,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' exact element={<Home/>}></Route>
-          <Route path='/projetos' element={<ProjectsPage/>}></Route>
+          <Route path='/projects/:url' element={<ProjectsPage/>}></Route>
         </Routes>
       </BrowserRouter>
       <Footer/>

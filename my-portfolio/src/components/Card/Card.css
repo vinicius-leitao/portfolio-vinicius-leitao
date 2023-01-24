@@ -46,7 +46,6 @@
 }
 
 .card-container{
-    order: 2;
     height: 35vh;
     width: 20vw;
     background-color: #2E323B;
@@ -56,6 +55,10 @@
     transition: background-color .4s ease;
     border-radius: 10px;
     padding: 10px
+}
+
+.card-link{
+    order: 2;
 }
 
 .card-container:hover{
