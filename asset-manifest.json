@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio-vinicius-leitao/static/css/main.1d0cda52.css",
-    "main.js": "/portfolio-vinicius-leitao/static/js/main.5b7c4151.js",
+    "main.css": "/portfolio-vinicius-leitao/static/css/main.56fb3caf.css",
+    "main.js": "/portfolio-vinicius-leitao/static/js/main.30981c4a.js",
     "static/js/787.128fc6e9.chunk.js": "/portfolio-vinicius-leitao/static/js/787.128fc6e9.chunk.js",
     "index.html": "/portfolio-vinicius-leitao/index.html",
-    "main.1d0cda52.css.map": "/portfolio-vinicius-leitao/static/css/main.1d0cda52.css.map",
-    "main.5b7c4151.js.map": "/portfolio-vinicius-leitao/static/js/main.5b7c4151.js.map",
+    "main.56fb3caf.css.map": "/portfolio-vinicius-leitao/static/css/main.56fb3caf.css.map",
+    "main.30981c4a.js.map": "/portfolio-vinicius-leitao/static/js/main.30981c4a.js.map",
     "787.128fc6e9.chunk.js.map": "/portfolio-vinicius-leitao/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d0cda52.css",
-    "static/js/main.5b7c4151.js"
+    "static/css/main.56fb3caf.css",
+    "static/js/main.30981c4a.js"
   ]
 }
